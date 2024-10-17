@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login Page</title>
+    <style type="text/css">
+        body {
+            font-family:serif;
+            background-color: #C1AE9F;
+            margin: 0;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            padding: 20px;
+            background: #89937C;
+            color: #fff;
+        }
+        .container {
+            max-width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #37393A;
+            border-radius: 5px;
+        }
+        .container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: white;
+        }
+        .container input[type="text"],
+        .container input[type="password"]
+        {
+            width: 95%;
+            padding: 5px;
+            margin: 5px 0;
+            border: 2px solid #334139;
+            border-radius: 5px;
+            font-family: serif;
+            }
+        .container input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background: #89937C;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.5s ease; 
+        }
+        .container input[type="submit"]:hover {
+            background: #5D6553;
+        }
+        .Footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .logo {
+            display: block; 
+            margin: 30px auto; 
+            width: 100px; 
+            height: auto; 
+            border-radius: 50%; 
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to my Website</h1>
+    </div> 
+
+    <div class="container">   
+        <h2>Login</h2>
+        <img id="profileImage" src="https://i.pinimg.com/564x/64/b9/dd/64b9dddabbcf4b5fb2b885927b7ede61.jpg" class="logo"> 
+        <form id="loginForm">
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" id="passwordInput" name="password" placeholder="Password" required> 
+            <input type="submit">
+        </form>
+        <br>
+    </div>
+    <div class="Footer">
+        <h3>Thomas Taylor L Coeli 9-Emerald</h3>
+    </div>
+</body>
+</html>
